@@ -11,12 +11,11 @@ const Banner = () => {
                 <div className='space-x-4'>
                     <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl">Explore Products</button>
                     <button className="btn btn-outline btn-primary rounded-3xl"><img src="/src/assets/Play.png" alt="" />Watch Demo</button>
-            </div>
+                </div>
             </div>
             <div>
                 <img src="/src/assets/banner.png" alt="" />
             </div>
-            
         </div>
         
     );
