@@ -11,7 +11,7 @@ const Product = ({productPromise, setCart, cart}) => {
 
     const [selectedProduct, setSelectedProduct] = useState([]);
     return (
-        <div className='py-30 mx-auto'>
+        <div className='px-4 sm:px-10 md:px-20 lg:px-40 py-10 sm:py-20 mx-auto'>
             <div className='text-center mb-10'>
                 <h1 className='font-bold text-5xl mb-4'>Premium Digital Tools</h1>
                 <p className='mb-4'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
@@ -25,7 +25,7 @@ const Product = ({productPromise, setCart, cart}) => {
                 </div>
             </div>
             <div>
-                {selectedType === "product" ? "" : <h2 className='font-medium text-2xl mb-6'>Your Cart</h2>}
+                {selectedType === "product" ? "" : <h2 className='font-medium text-2xl mb-6 '>Your Cart</h2>}
                 
             </div>
             

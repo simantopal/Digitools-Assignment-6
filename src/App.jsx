@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify'
 import Step from './Components/StepSection/Step'
 import Pricing from './Components/PricingSection/Pricing'
 import Transform from './Components/TransformSection/Transform'
+import Footer from './Components/Footer/Footer'
 
 const fetchProduct = async () => {
   const res = await fetch("/data.json");
@@ -28,6 +29,7 @@ function App() {
       <Step></Step>
       <Pricing></Pricing>
       <Transform></Transform>
+      <Footer></Footer>
 
       <ToastContainer />
     </>
