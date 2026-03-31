@@ -7,6 +7,7 @@ import Stats from './Components/Stats/Stats'
 import { ToastContainer } from 'react-toastify'
 import Step from './Components/StepSection/Step'
 import Pricing from './Components/PricingSection/Pricing'
+import Transform from './Components/TransformSection/Transform'
 
 const fetchProduct = async () => {
   const res = await fetch("/data.json");
@@ -26,6 +27,7 @@ function App() {
       </Suspense>
       <Step></Step>
       <Pricing></Pricing>
+      <Transform></Transform>
 
       <ToastContainer />
     </>
