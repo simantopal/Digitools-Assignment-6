@@ -11,8 +11,8 @@ const Product = ({productPromise, setCart, cart}) => {
 
     const [selectedProduct, setSelectedProduct] = useState([]);
     return (
-        <div className='px-50 py-30'>
-            <div className='justify-center text-center mb-10'>
+        <div className='py-30 mx-auto'>
+            <div className='text-center mb-10'>
                 <h1 className='font-bold text-5xl mb-4'>Premium Digital Tools</h1>
                 <p className='mb-4'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
                 

@@ -45,7 +45,7 @@ const Card = ({product, setCart, cart, setSelectedProduct, selectedProduct}) => 
                     className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl btn-block" 
                     onClick={handleChooseProduct} 
                     disabled={isSelected}>
-                        {isSelected === true ? "Selected" : "Buy Now"}</button>
+                        {isSelected === true ? "Added to cart" : "Buy Now"}</button>
                 </div>
             </div>
         </div>
