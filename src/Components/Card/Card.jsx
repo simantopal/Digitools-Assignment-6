@@ -16,7 +16,7 @@ const Card = ({product, setCart, cart, setSelectedProduct, selectedProduct}) => 
         <div className="card bg-base-100 shadow-2xl px-6 py-6 mx-auto">
             <div className="card-body">
                 <div className='flex justify-between mb-4'>
-                    <img src="/src/assets/products/writing_2327400 1.png" alt="" className='w-12 h-12' />
+                    <img src={product.Img} alt="" className='w-12 h-12' />
                     <span className="badge badge-xs badge-warning">{product.tag}</span>
                 </div>
                 <div className="space-y-4">

@@ -12,7 +12,7 @@
       "50+ writing templates",
       "SEO optimization"
     ],
-    "icon": "ai"
+    "Img": "https://i.ibb.co.com/spvJxtyK/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Monthly updates",
       "Custom branding"
     ],
-    "icon": "palette"
+    "Img": "https://i.ibb.co.com/7JWNLFGJ/design-tool.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Commercial license",
       "Regular updates"
     ],
-    "icon": "image"
+    "Img": "https://i.ibb.co.com/4wpQThSD/camera.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "settings"
+    "Img": "https://i.ibb.co.com/Y7zZQtDF/operation.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "file-text"
+    "Img": "https://i.ibb.co.com/7NxXhbRn/portfolio.png"
   },
   {
     "id": 6,
@@ -87,6 +87,6 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "share"
+    "Img": "https://i.ibb.co.com/6RxS3BCD/social-media.png"
   }
 ]
