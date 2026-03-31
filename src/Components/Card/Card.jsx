@@ -1,7 +1,17 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
-const Card = ({product}) => {
+const Card = ({product, setCart, cart, setSelectedProduct, selectedProduct}) => {
     const [isSelected, setIsSelected] = useState(false);
+
+    const handleChooseProduct = () => {
+        toast.success(`${product.name} Added to cart`)
+
+        setCart(cart + 1);
+        setIsSelected(true); 
+        setSelectedProduct([...selectedProduct, product])
+        }
+
     return (
         <div className="card w-96 bg-base-100 shadow-2xl px-6 py-6 mx-auto">
             <div className="card-body">
@@ -33,7 +43,7 @@ const Card = ({product}) => {
                 <div className="mt-6">
                     <button 
                     className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl btn-block" 
-                    onClick={() => setIsSelected(true)} 
+                    onClick={handleChooseProduct} 
                     disabled={isSelected}>
                         {isSelected === true ? "Selected" : "Buy Now"}</button>
                 </div>
