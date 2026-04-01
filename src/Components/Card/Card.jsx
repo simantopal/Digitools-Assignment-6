@@ -17,7 +17,13 @@ const Card = ({product, setCart, cart, setSelectedProduct, selectedProduct}) => 
             <div className="card-body">
                 <div className='flex justify-between mb-4'>
                     <img src={product.Img} alt="" className='w-12 h-12' />
-                    <span className="badge badge-xs badge-warning">{product.tag}</span>
+                    <span className={`badge badge-xs ${
+                        product.tag === "Popular"
+                        ? "bg-blue-200 text-blue-600"
+                        : product.tag === "New"
+                        ? "bg-green-200 text-green-600"
+                        : "bg-yellow-200 text-yellow-600"
+                    }`}>{product.tag}</span>
                 </div>
                 <div className="space-y-4">
                     <h2 className="text-2xl font-semibold">{product.name}</h2>
