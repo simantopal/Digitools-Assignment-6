@@ -1,4 +1,7 @@
 import React from 'react';
+import userImg from '../../assets/user.png';
+import packageImg from '../../assets/package.png';
+import rocketImg from '../../assets/rocket.png';
 
 const Step = () => {
     return (
@@ -14,7 +17,7 @@ const Step = () => {
         <div className="card bg-base-200 shadow-sm justify-center rounded-2xl">
             <div className="badge badge-primary rounded-full mt-2 ml-2 badge-lg">01</div>
             <figure className="pt-10 mt-10">
-                <img src="/src/assets/user.png" alt="user" />
+                <img src={userImg} alt="user" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Create Account</h2>
@@ -25,7 +28,7 @@ const Step = () => {
         <div className="card bg-base-200 shadow-sm justify-center rounded-2xl">
             <div className="badge badge-primary rounded-full mt-2 ml-2 badge-lg">02</div>
             <figure className="pt-10 mt-10">
-                <img src="/src/assets/package.png" alt="package" />
+                <img src={packageImg} alt="package" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Choose Products</h2>
@@ -36,7 +39,7 @@ const Step = () => {
         <div className="card bg-base-200 shadow-sm justify-center rounded-2xl">
             <div className="badge badge-primary rounded-full mt-2 ml-2 badge-lg">03</div>
             <figure className="pt-10 mt-10">
-                <img src="/src/assets/rocket.png" alt="rocket" />
+                <img src={rocketImg} alt="rocket" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Start Creating</h2>

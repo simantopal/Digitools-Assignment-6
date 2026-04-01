@@ -1,4 +1,5 @@
 import React from 'react';
+import banner from '../../assets/banner.png';
 
 const Banner = () => {
     return (
@@ -30,9 +31,8 @@ const Banner = () => {
         </div>
     </div>
     <div className='w-full max-w-md lg:max-w-lg'>
-        <img src="/src/assets/banner.png" alt="banner" className='w-full h-auto' />
+        <img src={banner} alt="banner" className='w-full h-auto' />
     </div>
-
 </div>
         
     );

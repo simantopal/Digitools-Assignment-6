@@ -36,7 +36,7 @@ const SelectedProduct = (
                     {selectedProduct.map((product) => (
                         <div key={product.name} className='flex items-center gap-5 justify-between p-10 rounded-2xl border'>
                             <div className='flex items-center gap-3'>
-                                <img src="/src/assets/products/writing_2327400 1.png" alt={product.name} className='h-15 w-auto' />
+                                <img src={product.Img} alt={product.name} className='h-15 w-auto' />
                                 <div>
                                     <h2 className='flex items-center gap-2 font-medium text-xl'>{product.name}</h2>
                                     <p>${product.price}</p>
