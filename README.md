@@ -39,7 +39,7 @@ https://digitoolsplatform-assignment-6.netlify.app/
 
 ## 🚀 How to Run Locally
 1. **Clone the repository:**  
-
+```
 git clone <repository-link>
 Navigate to the project folder:
 cd project-folder
@@ -69,7 +69,7 @@ Visit http://localhost:3000
 This project uses React Suspense for asynchronous product fetching.
 Cart functionality is implemented using React state with toast notifications.
 Fully responsive design is achieved using Tailwind CSS utility classes.
-
+```
 <h1>📸 Screenshots</h1>
 <img width="1920" height="796" alt="image" src="https://github.com/user-attachments/assets/1da70bc3-7592-4268-b4e1-b5ea187e9c3a" />
 <img width="1712" height="898" alt="image" src="https://github.com/user-attachments/assets/309ed354-504f-426f-aa16-4a948a411487" />
