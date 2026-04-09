@@ -3,7 +3,7 @@
 DigiTools is a modern web app that provides a curated collection of digital products, productivity tools, templates, and AI-powered assets for creators and professionals. Users can browse products, add them to the cart, and manage purchases seamlessly. The app is fully responsive, interactive, and built with modern React and Tailwind CSS technologies.
 
 🌐 **Live Demo:**  
-[Insert your live demo link here]
+https://digitoolsplatform-assignment-6.netlify.app/
 
 ---
 
@@ -50,8 +50,7 @@ npm start
 Open the app:
 Visit http://localhost:3000
  in your browser.
-📸 Screenshots
-<div align="center"> <img src="path-to-your-banner-screenshot.png" alt="Banner" width="600"/> <img src="path-to-your-product-screenshot.png" alt="Products" width="600"/> <img src="path-to-your-pricing-screenshot.png" alt="Pricing" width="600"/> </div>
+
 🛠 Project Structure
 /src
  ├─ /Components
@@ -65,17 +64,14 @@ Visit http://localhost:3000
  │   └─ Footer
  ├─ App.js
  └─ index.js
+
 💡 Notes
 This project uses React Suspense for asynchronous product fetching.
 Cart functionality is implemented using React state with toast notifications.
 Fully responsive design is achieved using Tailwind CSS utility classes.
-📄 License
-
-This project is open-source and available for learning purposes.
 
 
----
+<h1>📸 Screenshots</h1>
+<img width="1920" height="796" alt="image" src="https://github.com/user-attachments/assets/1da70bc3-7592-4268-b4e1-b5ea187e9c3a" />
+<img width="1712" height="898" alt="image" src="https://github.com/user-attachments/assets/309ed354-504f-426f-aa16-4a948a411487" />
 
-If you want, I can also **add the live screenshots from your project automatically** and finalize the **README with badges, icons, and prettier markdown styling**, so it’s ready for GitHub.  
-
-Do you want me to do that next?
