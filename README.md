@@ -1,6 +1,6 @@
-# DigiTools – Premium Digital Tools Web App
+# DigiTools–Platform (Premium Digital Tools Website)
 
-DigiTools is a modern web app that provides a curated collection of digital products, productivity tools, templates, and AI-powered assets for creators and professionals. Users can browse products, add them to the cart, and manage purchases seamlessly. The app is fully responsive, interactive, and built with modern React and Tailwind CSS technologies.
+DigiTools is a modern website that provides a curated collection of digital products, productivity tools, templates, and AI-powered assets for creators and professionals. Users can browse products, add them to the cart, and manage purchases seamlessly. The website is fully responsive, interactive, and built with modern React and Tailwind CSS technologies.
 
 🌐 **Live Demo:**  
 https://digitoolsplatform-assignment-6.netlify.app/
